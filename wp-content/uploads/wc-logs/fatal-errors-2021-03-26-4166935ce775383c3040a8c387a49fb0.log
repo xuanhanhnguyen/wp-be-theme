@@ -1,0 +1,73 @@
+2021-03-26T17:47:16+00:00 CRITICAL Uncaught Error: Class 'TwentyTwenty_Script_Loader' not found in C:\xampp\htdocs\wordpress\wp-content\themes\me\functions.php:111
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): twentytwenty_theme_support('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-settings.php(538): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\wordpress\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\me\functions.php on line 111
+
+2021-03-26T17:47:49+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\me\header.php:42
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\me\index.php(1): get_header()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\me\header.php on line 42
+
+2021-03-26T17:51:55+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\entry-header.php:70
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\content.php(20): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\me\index.php(72): get_template_part('template-parts/...', 'post')
+#8 C:\xampp in C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\entry-header.php on line 70
+
+2021-03-26T17:57:41+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\entry-header.php:70
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\content.php(20): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\me\index.php(72): get_template_part('template-parts/...', 'post')
+#8 C:\xampp in C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\entry-header.php on line 70
+
+2021-03-26T17:58:23+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\entry-header.php:70
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\content.php(20): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\me\index.php(72): get_template_part('template-parts/...', 'post')
+#8 C:\xampp in C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\entry-header.php on line 70
+
+2021-03-26T18:00:17+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\entry-header.php:70
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\content.php(20): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\me\index.php(72): get_template_part('template-parts/...', 'post')
+#8 C:\xampp in C:\xampp\htdocs\wordpress\wp-content\themes\me\template-parts\entry-header.php on line 70
+
